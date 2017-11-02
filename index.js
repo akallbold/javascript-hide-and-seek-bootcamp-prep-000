@@ -15,7 +15,7 @@ function nestedTarget(){
 function deepestChild(){
   var currentLevel=document.getElementById('grand-node').querySelectorAll('div');
   var answerLength=currentLevel.length-1;
-  return currentLevel[answerLength].innerHTML;
+  return currentLevel[answerLength];
 }
 
 function increaseRankBy(num){

@@ -14,12 +14,7 @@ function nestedTarget(){
 
 function deepestChild(){
   var currentLevel=document.getElementById('grand-node').querySelectorAll('div');
-  var n=0
-  while (n<5){
-    currentLevel+= 'div';
-    console.log(currentLevel);
-    n++;
-  }
+  console.log(currentLevel.length)
 }
 
 function increaseRankBy(num){

@@ -24,7 +24,7 @@ function increaseRankBy(num){
   for (var i =0;i<rankedListsA.length;i++){
     for(var j =0;j<rankedListsA[i].children.length;j++){
       var current= parseInt(rankedListsA[i].children[j].innerHTML);
-      // console.log(current);
+      console.log(current);
       console.log(rankedListsA[0])
       current += num;
       console.log(rankedListsA[0])

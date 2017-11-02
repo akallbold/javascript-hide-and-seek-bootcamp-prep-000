@@ -14,10 +14,12 @@ function nestedTarget(){
 
 function deepestChild(){
   var currentLevel=document.getElementById('grand-node');
-
-  while (currentLevel.children){
-    currentLevel=querySelector('div');
-  } return currentLevel.innerHTML;
+  var i=0
+  
+  while (currentLevel.hasOwnProperty('children')){
+    document.querySelector('div')[i];
+    i++;
+  } return document.querySelector('div')[i].innerHTML;
 }
 
 function increaseRankBy(num){

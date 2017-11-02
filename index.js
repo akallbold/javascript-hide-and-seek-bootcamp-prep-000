@@ -23,5 +23,6 @@ function increaseRankBy(num){
 
   for (var i =0;i<rankedListsA.length;i++){
     parseInt(rankedListsA[i].innerHTML)+num;
+    console.log(rankedListsA[i].innerHTML);
   }
 }

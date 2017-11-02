@@ -14,8 +14,8 @@ function nestedTarget(){
 
 function deepestChild(){
   var currentLevel=document.getElementById('grand-node');
-
-  while (var n<5){
+  var n=0
+  while (n<5){
     currentLevel+= 'div';
     console.log(currentLevel);
     n++;

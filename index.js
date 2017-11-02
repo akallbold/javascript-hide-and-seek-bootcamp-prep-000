@@ -27,6 +27,7 @@ function increaseRankBy(num){
       console.log(current);
       console.log(rankedListsA[0])
       current += num;
+      console.log(parseInt(rankedListsA[i].children[j].innerHTML))
       console.log(rankedListsA[0])
       // console.log(current);
     }

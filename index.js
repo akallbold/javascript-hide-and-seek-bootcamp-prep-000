@@ -13,7 +13,7 @@ function nestedTarget(){
 }
 
 function deepestChild(){
-  var currentLevel=document.getElementById('grand-node');
+  var currentLevel=document.getElementById('grand-node').quequerySelectorAll('div');
   var n=0
   while (n<5){
     currentLevel+= 'div';

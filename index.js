@@ -19,13 +19,9 @@ function deepestChild(){
 }
 
 function increaseRankBy(num){
-  var rankedListsA= document.getElementsByClassName('ranked-list')
+  var rankedListsA= document.getElementsByClassName('ranked-list').querySelectorAll('li')
 
   for (var i =0;i<rankedListsA.length;i++){
-    for(var j =0;j<rankedListsA[i].children.length;j++){
-      var current= parseInt(rankedListsA[i].children[j].innerHTML);
-      current += num;
-      return current;
-    }
+    parseInt(rankedListsA[i].innerHTML)+num;
   }
 }

@@ -25,6 +25,7 @@ function increaseRankBy(num){
     for(var j =0;j<rankedListsA[i].children.length;j++){
       var current= parseInt(rankedListsA[i].children[j].innerHTML);
       current += num;
+      return current;
     }
   }
 }

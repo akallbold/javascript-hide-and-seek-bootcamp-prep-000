@@ -19,7 +19,7 @@ function deepestChild(){
 }
 
 function increaseRankBy(num){
-  var rankedListsA= document.getElementsByClassName('ranked-list').querySelectorAll('li')
+  var rankedListsA= document.getElementsByClassName('ranked-list').querySelectorAll('li');
 
   for (var i =0;i<rankedListsA.length;i++){
     parseInt(rankedListsA[i].innerHTML)+num;
